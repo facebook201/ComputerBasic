@@ -5,8 +5,8 @@
 
 
 ### 硬件的组成
-![border](https://raw.githubusercontent.com/facebook201/ComputerBasic/master/img/organization/hard.png)
+![border](https://raw.githubusercontent.com/facebook201/ComputerBasic/master/docs/img/organization/hard.png)
 
 
 ### 基本组成原理
-![border](https://raw.githubusercontent.com/facebook201/ComputerBasic/master/img/organization/basic.png)
+![border](https://raw.githubusercontent.com/facebook201/ComputerBasic/master/docs/img/organization/basic.png)
