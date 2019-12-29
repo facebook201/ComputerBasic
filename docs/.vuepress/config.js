@@ -30,6 +30,10 @@ module.exports = {
           {
             text: '操作系统',
             link: '/Data/OperatingSystem/'
+          },
+          {
+            text: 'C语言',
+            link: '/Data/CL/'
           }
         ]
       },
@@ -77,6 +81,15 @@ module.exports = {
           collapsable: false,
           children: [
             '/Data/OperatingSystem/',
+          ]
+        }
+      ],
+      '/Data/CL/': [
+        {
+          title: 'C语言',
+          collapsable: false,
+          children: [
+            '/Data/CL/',
           ]
         }
       ],
