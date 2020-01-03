@@ -63,6 +63,19 @@ module.exports = {
             link: '/Data/Article/'
           }
         ]
+      },
+      {
+        text: 'C/CPP',
+        items: [
+          {
+            text: 'C-L',
+            link: '/Data/C/'
+          },
+          {
+            text: 'CPP',
+            link: '/Data/CPP/'
+          }
+        ]
       }
     ],
     sidebar: {
@@ -90,6 +103,7 @@ module.exports = {
           collapsable: false,
           children: [
             '/Data/CL/',
+            '/Data/CL/function.md'
           ]
         }
       ],
@@ -117,6 +131,24 @@ module.exports = {
           collapsable: false,
           children: [
             '/Data/Article/',
+          ]
+        }
+      ],
+      '/Data/C/': [
+        {
+          title: 'C语言',
+          collapsable: false,
+          children: [
+            '/Data/C/',
+          ]
+        }
+      ],
+      '/Data/CPP/': [
+        {
+          title: 'CPP',
+          collapsable: false,
+          children: [
+            '/Data/CPP/',
           ]
         }
       ]
