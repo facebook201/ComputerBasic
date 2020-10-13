@@ -423,3 +423,52 @@ printf("内存中的位置: %p\n", &var1); //var1变量的地址： 0x7ffeede499
 
 
 
+
+
+
+
+
+
+## 结构体
+
+它是一种用户可以自己定义存储不同类型的数据结构。是复合数据类型的一类。
+
+```c
+// struct 结构体关键字
+// tag 结构体的标志
+// member-list 为结构体成员列表，其必须列出所有成员
+// variable-list 结构体声明的变量
+// tag、member-list、variable-list这3部分至少要出现2个。
+struct tag { member-list } variable-list;
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

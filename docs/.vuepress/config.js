@@ -16,33 +16,11 @@ module.exports = {
     editLinkText: '在 GitHub 上编辑此页',
     nav: [
       { 
-        text: '计算机组成原理',
-        items: [
-          {
-            text: '计算机组成原理',
-            link: '/Data/ComputerOrganization/'
-          }
-        ]
-      },
-      { 
         text: '操作系统',
         items: [
           {
             text: '操作系统',
             link: '/Data/OperatingSystem/'
-          },
-          {
-            text: 'C语言',
-            link: '/Data/CL/'
-          }
-        ]
-      },
-      { 
-        text: '编译原理',
-        items: [
-          {
-            text: '编译原理',
-            link: '/Data/CompilationPrinciple/'
           }
         ]
       },
@@ -61,19 +39,6 @@ module.exports = {
           {
             text: '原理好文',
             link: '/Data/Article/'
-          }
-        ]
-      },
-      {
-        text: 'C/CPP',
-        items: [
-          {
-            text: 'C-L',
-            link: '/Data/C/'
-          },
-          {
-            text: 'CPP',
-            link: '/Data/CPP/'
           }
         ]
       }
