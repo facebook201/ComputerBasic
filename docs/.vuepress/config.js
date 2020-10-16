@@ -58,6 +58,8 @@ module.exports = {
           title: '操作系统',
           collapsable: false,
           children: [
+            '/Data/OperatingSystem/Compositionprinciple.md',
+            '/Data/OperatingSystem/Compile.md',
             '/Data/OperatingSystem/',
             '/Data/OperatingSystem/Process.md'
           ]
