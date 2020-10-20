@@ -16,11 +16,24 @@ module.exports = {
     editLinkText: '在 GitHub 上编辑此页',
     nav: [
       { 
+        text: '数据库',
+        items: [
+          {
+            text: 'Redis',
+            link: '/Data/DataBase/Redis/'
+          }
+        ]
+      },
+      { 
         text: '操作系统',
         items: [
           {
             text: '操作系统',
             link: '/Data/OperatingSystem/'
+          },
+          {
+            text: 'C',
+            link: '/Data/C/'
           }
         ]
       },
@@ -61,26 +74,35 @@ module.exports = {
             '/Data/OperatingSystem/Compositionprinciple.md',
             '/Data/OperatingSystem/Compile.md',
             '/Data/OperatingSystem/',
-            '/Data/OperatingSystem/Process.md'
+            '/Data/OperatingSystem/Process.md',
+            '/Data/OperatingSystem/IO.md'
           ]
         }
       ],
-      '/Data/CL/': [
+      '/Data/DataBase/Redis/': [
+        {
+          title: 'Redis',
+          collapsable: false,
+          children: [
+            '/Data/DataBase/Redis/'
+          ]
+        }
+      ],
+      '/Data/C/': [
         {
           title: 'C语言',
           collapsable: false,
           children: [
-            '/Data/CL/',
-            '/Data/CL/function.md'
+            '/Data/C/'
           ]
         }
       ],
-      '/Data/CompilationPrinciple/': [
+      '/Data/DataBase/': [
         {
-          title: '编译原理',
+          title: '数据库',
           collapsable: false,
           children: [
-            '/Data/CompilationPrinciple/',
+            '/Data/DataBase/',
           ]
         }
       ],
