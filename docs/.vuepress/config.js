@@ -34,6 +34,10 @@ module.exports = {
           {
             text: 'C',
             link: '/Data/C/'
+          },
+          {
+            text: 'Go',
+            link: '/Data/Go/'
           }
         ]
       },
@@ -97,6 +101,15 @@ module.exports = {
           ]
         }
       ],
+      '/Data/Go/': [
+        {
+          title: 'Golang',
+          collapsable: false,
+          children: [
+            '/Data/Go/'
+          ]
+        }
+      ],
       '/Data/DataBase/': [
         {
           title: '数据库',
@@ -112,6 +125,7 @@ module.exports = {
           collapsable: false,
           children: [
             '/Data/ComputerNetwork/',
+            '/Data/ComputerNetwork/QS.md'
           ]
         }
       ],
